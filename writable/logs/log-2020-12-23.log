@@ -1,0 +1,33 @@
+ERROR - 2020-12-23 22:37:23 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2020-12-23 22:37:23 --> Unable to connect to the database.
+#0 /Applications/MAMP/htdocs/car_data_display-main/system/Database/BaseConnection.php(602): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/car_data_display-main/app/Models/Home_model.php(12): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#2 /Applications/MAMP/htdocs/car_data_display-main/app/Controllers/Home.php(16): App\Models\Home_model->get_company_data()
+#3 /Applications/MAMP/htdocs/car_data_display-main/system/CodeIgniter.php(931): App\Controllers\Home->index()
+#4 /Applications/MAMP/htdocs/car_data_display-main/system/CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/car_data_display-main/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/car_data_display-main/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2020-12-23 22:39:26 --> mysqli_sql_exception: Table 'db_car.car_data' doesn't exist in /Applications/MAMP/htdocs/car_data_display-main/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/car_data_display-main/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT DISTINCT...')
+#1 /Applications/MAMP/htdocs/car_data_display-main/system/Database/BaseConnection.php(697): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/MAMP/htdocs/car_data_display-main/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/MAMP/htdocs/car_data_display-main/app/Models/Home_model.php(12): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/MAMP/htdocs/car_data_display-main/app/Controllers/Home.php(16): App\Models\Home_model->get_company_data()
+#5 /Applications/MAMP/htdocs/car_data_display-main/system/CodeIgniter.php(931): App\Controllers\Home->index()
+#6 /Applications/MAMP/htdocs/car_data_display-main/system/CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/MAMP/htdocs/car_data_display-main/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/car_data_display-main/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-12-23 22:39:26 --> Table 'db_car.car_data' doesn't exist
+#0 /Applications/MAMP/htdocs/car_data_display-main/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT DISTINCT...')
+#1 /Applications/MAMP/htdocs/car_data_display-main/system/Database/BaseConnection.php(697): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/MAMP/htdocs/car_data_display-main/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/MAMP/htdocs/car_data_display-main/app/Models/Home_model.php(12): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/MAMP/htdocs/car_data_display-main/app/Controllers/Home.php(16): App\Models\Home_model->get_company_data()
+#5 /Applications/MAMP/htdocs/car_data_display-main/system/CodeIgniter.php(931): App\Controllers\Home->index()
+#6 /Applications/MAMP/htdocs/car_data_display-main/system/CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/MAMP/htdocs/car_data_display-main/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/car_data_display-main/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

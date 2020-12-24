@@ -1,0 +1,31 @@
+CRITICAL - 2020-12-24 00:10:54 --> Undefined variable: totalTime
+#0 /Applications/MAMP/htdocs/CodeIgniter4/system/Debug/Toolbar/Views/toolbar.tpl.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 41, Array)
+#1 /Applications/MAMP/htdocs/CodeIgniter4/system/Debug/Toolbar.php(456): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/CodeIgniter4/system/Debug/Toolbar.php(413): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /Applications/MAMP/htdocs/CodeIgniter4/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 /Applications/MAMP/htdocs/CodeIgniter4/system/Events/Events.php(166): call_user_func(Object(Closure))
+#6 /Applications/MAMP/htdocs/CodeIgniter4/system/CodeIgniter.php(314): CodeIgniter\Events\Events::trigger('pre_system')
+#7 /Applications/MAMP/htdocs/CodeIgniter4/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-24 01:16:21 --> Undefined variable: totalTime
+#0 /Applications/MAMP/htdocs/CodeIgniter4/system/Debug/Toolbar/Views/toolbar.tpl.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 41, Array)
+#1 /Applications/MAMP/htdocs/CodeIgniter4/system/Debug/Toolbar.php(456): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/CodeIgniter4/system/Debug/Toolbar.php(413): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /Applications/MAMP/htdocs/CodeIgniter4/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 /Applications/MAMP/htdocs/CodeIgniter4/system/Events/Events.php(166): call_user_func(Object(Closure))
+#6 /Applications/MAMP/htdocs/CodeIgniter4/system/CodeIgniter.php(314): CodeIgniter\Events\Events::trigger('pre_system')
+#7 /Applications/MAMP/htdocs/CodeIgniter4/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-24 01:17:43 --> Undefined index: company
+#0 /Applications/MAMP/htdocs/CodeIgniter4/app/Views/company_list_view.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 9, Array)
+#1 /Applications/MAMP/htdocs/CodeIgniter4/app/Views/main_view.php(47): include_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/CodeIgniter4/system/View/View.php(219): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/CodeIgniter4/system/Common.php(1213): CodeIgniter\View\View->render('main_view', Array, true)
+#4 /Applications/MAMP/htdocs/CodeIgniter4/app/Controllers/Home.php(20): view('main_view', Array)
+#5 /Applications/MAMP/htdocs/CodeIgniter4/system/CodeIgniter.php(931): App\Controllers\Home->index()
+#6 /Applications/MAMP/htdocs/CodeIgniter4/system/CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/MAMP/htdocs/CodeIgniter4/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/CodeIgniter4/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
