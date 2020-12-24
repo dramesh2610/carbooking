@@ -68,7 +68,7 @@
 
 	function pay(amount) {
 		var handler = StripeCheckout.configure({
-		key: 'k_test_51I1p7FBIVYkuVPah08tf5WpX6e5Ov6KthheipNOUrO5mBLn0IMR4zJgvZ17bhH2r6fYjsR5Fwz6PBNrXvVjvVqi100DZ7DvZFO',
+		key: 'pk_test_51I1p7FBIVYkuVPahCO1PusyLpPfhXumtWXEwGAIcTCGiKXWq1Z7Hvnyxvub1E0aNRIdQaRkWqdTtMI6Off3cwaEX00bgS3aoUH',
 		locale: 'auto',
 		token: function (token) {
 			// You can access the token ID with `token.id`.

@@ -26,7 +26,7 @@ class Stripe extends BaseController
     {
       require_once('app/libraries/stripe-php/init.php');
       // Stripe secret key
-	  $stripeSecret = 'sk_test_51I1p7FBIVYkuVPah08tf5WpX6e5Ov6KthheipNOUrO5mBLn0IMR4zJgvZ17bhH2r6fYjsR5Fwz6PBNrXvVjvVqi100DZ7DvZFO';
+	  $stripeSecret = 'pk_test_51I1p7FBIVYkuVPahCO1PusyLpPfhXumtWXEwGAIcTCGiKXWq1Z7Hvnyxvub1E0aNRIdQaRkWqdTtMI6Off3cwaEX00bgS3aoUH';
 
       \Stripe\Stripe::setApiKey($stripeSecret);
 

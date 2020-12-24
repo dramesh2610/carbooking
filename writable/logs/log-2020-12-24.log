@@ -29,3 +29,19 @@ CRITICAL - 2020-12-24 01:17:43 --> Undefined index: company
 #7 /Applications/MAMP/htdocs/CodeIgniter4/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #8 /Applications/MAMP/htdocs/CodeIgniter4/public/index.php(44): CodeIgniter\CodeIgniter->run()
 #9 {main}
+CRITICAL - 2020-12-24 04:16:15 --> Undefined variable: totalTime
+#0 /Applications/MAMP/htdocs/CodeIgniter4/system/Debug/Toolbar/Views/toolbar.tpl.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 41, Array)
+#1 /Applications/MAMP/htdocs/CodeIgniter4/system/Debug/Toolbar.php(456): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/CodeIgniter4/system/Debug/Toolbar.php(413): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /Applications/MAMP/htdocs/CodeIgniter4/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 /Applications/MAMP/htdocs/CodeIgniter4/system/Events/Events.php(166): call_user_func(Object(Closure))
+#6 /Applications/MAMP/htdocs/CodeIgniter4/system/CodeIgniter.php(314): CodeIgniter\Events\Events::trigger('pre_system')
+#7 /Applications/MAMP/htdocs/CodeIgniter4/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-24 04:39:27 --> App\Controllers\Stripe::payment(): Failed opening required 'app/libraries/stripe-php/init.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.8/lib/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-24 04:43:52 --> App\Controllers\Stripe::payment(): Failed opening required 'app/libraries/stripe-php/init.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.8/lib/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
